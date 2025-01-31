@@ -19,3 +19,11 @@
 
 
 /* Diyorbek */
+.box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box img{
+    width: 100%;
+}

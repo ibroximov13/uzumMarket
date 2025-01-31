@@ -1,29 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-
 
 /* Fazliddin */
 
-
-
 /* Ilyosbek */
 
-
-
-
 /* Diyorbek */
-.box{
-    display: flex;
-    justify-content: space-between;
-
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
 }
-.box img{
-    width: 100%;
+.box img {
+  width: 100%;
+}
+.box .card {
+  width: 20%;
 }
